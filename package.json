@@ -1,0 +1,52 @@
+{
+  "name": "gmap",
+  "version": "0.0.0-development",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.10.1",
+    "axios": "^0.18.0",
+    "babel-plugin-import": "^1.9.1",
+    "react": "^16.5.2",
+    "react-app-rewired": "^1.6.2",
+    "react-dom": "^16.5.2",
+    "react-google-maps": "^9.4.5",
+    "react-scripts": "2.0.4",
+    "recompose": "^0.30.0"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:rec": "cypress run --record",
+    "eject": "react-scripts eject",
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release",
+    "lh": "lighthouse-ci",
+    "wba": "node triggerBundleAnalyzer.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "cypress": "^3.1.0",
+    "eslint-plugin-cypress": "^2.0.1",
+    "lighthouse-ci": "https://github.com/ebidel/lighthouse-ci",
+    "prop-types": "^15.6.2",
+    "react-app-rewire-webpack-bundle-analyzer": "^1.0.1",
+    "react-testing-library": "^5.2.0",
+    "semantic-release": "^15.9.17",
+    "travis-deploy-once": "^5.0.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antekai/ct-med-map.git"
+  }
+}

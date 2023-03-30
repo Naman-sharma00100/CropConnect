@@ -1,0 +1,13 @@
+.flexContainer {
+  display: flex;
+  /* background-color: #eee; */
+  flex-flow: row wrap;
+}
+.flexItem {
+  flex: 250px;
+  margin: 1rem;
+}
+
+.margin-1 {
+  margin: 1rem;
+}
